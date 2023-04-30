@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  &.scroll {
+    background-color: white;
+    box-shadow: 0 0 10px;
+    z-index: 110;
+    nav {
+      a {
+        color: black;
+      }
+    }
+  }
+  nav {
+    display: flex;
+    justify-content: right;
+    gap: 10px 10px;
+    a {
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+}

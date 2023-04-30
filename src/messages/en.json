@@ -1,0 +1,54 @@
+{
+  "home": {
+    "piccard1": {
+      "title": "Bem-vindo à Resid - Casa com seu jeito!",
+      "text": "Nós somos uma construtora especializada em casas de alto padrão, e nosso objetivo é proporcionar a você a casa dos seus sonhos. Com um corpo técnico altamente capacitado, cuidamos de todo o processo, desde a legalização até a entrega das chaves, para que você possa desfrutar de uma experiência tranquila e sem preocupações."
+    },
+    "piccard2": {
+      "title": "Excelência e Transparência",
+      "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade."
+    },
+    "track1": {
+      "title": "Excelência e Transparência",
+      "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade."
+    },
+    "track2": {
+      "title": "Empreendimentos",
+      "text": ""
+    },
+    "track3": {
+      "title": "Depoimentos",
+      "text": ""
+    },
+    "footer": {
+      "slogan": "Casa com seu jeito",
+      "faleconosco": "FALE CONOSCO",
+      "menu": "MENU",
+      "realizacoes": "Realizações",
+      "sobre": "Quem Somos",
+      "servicos": "Serviços"
+    },
+    "testemonials": [
+      {
+        "avatar": "/images/home/avatar.avif",
+        "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade.",
+        "name": "Fulano de tal"
+      },
+      {
+        "avatar": "/images/home/avatar.avif",
+        "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade.",
+        "name": "Alexandre o grande"
+      },
+      {
+        "avatar": "/images/home/avatar.avif",
+        "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade.",
+        "name": "Cliente safado"
+      },
+      {
+        "avatar": "/images/home/avatar.avif",
+        "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade.",
+        "name": "Homem que virou mulher"
+      }
+    ]
+  }
+}
