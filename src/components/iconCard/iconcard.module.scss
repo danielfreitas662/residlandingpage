@@ -1,0 +1,24 @@
+.iconcard {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 10px;
+  .icon {
+    text-align: center;
+    padding: 12px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2.2em;
+    color: green;
+  }
+  .title {
+    font-size: 1.2em;
+  }
+  .text {
+    text-align: justify;
+  }
+}

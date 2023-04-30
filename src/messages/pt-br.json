@@ -28,6 +28,24 @@
       "sobre": "Quem Somos",
       "servicos": "Serviços"
     },
+    "proposito": {
+      "title": "NOSSO PROPÓSITO",
+      "text": "Proporcionar segurança e tranquilidade oas nossos cli- entes e parceiros. tornando o processo ed construcão o mais leve possível, e garantindo que todos eles sejam entregues com altíssimo nível de excelência, sofisticação e confiabilidade."
+    },
+    "aspiracao": {
+      "title": "NOSSA ASPIRAÇÃO",
+      "text": "Ser aprimeira opcão de escolha de nossos clientes e parceiros na execução de seus projetos. Construir relacionamentos duradouros e satisfatórios. Ser reconhecida pela qualidade e eficiência em nossas soluções, tornando-nos referência no mercado."
+    },
+    "valores": {
+      "title": "VALORES E CRENÇAS",
+      "text": {
+        "a": "Somos excelentes na execução",
+        "b": "Focamos em gerar resultados",
+        "c": "Cuidamos de tudo para que os projetos dos nossos arquitetos e parceiros possam brilhar",
+        "d": "Somos transparentes como nossos clientes e parceiros",
+        "e": "Nosso parceiro também é nosso cliente"
+      }
+    },
     "testemonials": [
       {
         "avatar": "/images/home/avatar.avif",

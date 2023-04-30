@@ -4,6 +4,7 @@ import styles from './header.module.scss';
 import { useEffect, useState } from 'react';
 import Logo from './logo';
 import Navigation from './navigation';
+import LocaleSwitcher from '../localeSwitcher/localeSwitcher';
 function Header() {
   const [scrollY, setScrollY] = useState(0);
   useEffect(() => {
@@ -16,6 +17,7 @@ function Header() {
   return (
     <header className={clsx({ [styles.header]: true, [styles.scroll]: scrollY > 0 })}>
       <Logo />
+      <LocaleSwitcher />
       <Navigation />
     </header>
   );

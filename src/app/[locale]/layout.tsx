@@ -13,7 +13,6 @@ export const metadata = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = useLocale();
   const messages = (await import(`../../messages/${locale}.json`)).default;
-  console.log(locale);
   return (
     <html lang="en">
       <body className={inter.className}>
