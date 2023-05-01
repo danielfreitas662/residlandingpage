@@ -8,23 +8,17 @@ import { useLocale } from 'next-intl';
 import Carousel from '@/components/carousel/carousel';
 import Image from 'next/image';
 import { FaBuilding, FaStar, FaUsers } from 'react-icons/fa';
+import { catalog } from '@/catalog/images';
 
-const domain = process.env.NEXT_PUBLIC_DOMAIN as string;
 export default async function Home() {
   const locale = useLocale();
   const t = await getTranslations('home');
-  const testemonials = (await import(`../../messages/${locale}.json`)).default.home.testemonials;
-  const catalog = (await import('../../catalog/images.json')).default;
-  const video1 = await fetch(domain + `/api/content/home/${catalog.home.video1}`).then((res) => res.text());
-  const video2 = await fetch(domain + `/api/content/home/${catalog.home.video2}`).then((res) => res.text());
-  const piccard1 = await fetch(domain + `/api/content/home/${catalog.home.piccard1}`).then((res) => res.text());
-  const piccard2 = await fetch(domain + `/api/content/home/${catalog.home.piccard2}`).then((res) => res.text());
+  //const testemonials = (await import(`../../messages/${locale}.json`)).default.home.testemonials;
   return (
     <main className={styles.main}>
-      <FullVideo src={video1} />
-      <PicCard image={piccard1} title={t('piccard1.title')} text={t('piccard1.text')} />
+      <FullVideo file={catalog.home.video1} />
+      <PicCard image={catalog.home.piccard1} title={t('piccard1.title')} text={t('piccard1.text')} />
       <Track title="Corpo técnico capacitado" text="" />
-      <FullVideo src={video2} />
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         <div style={{ flex: '1 1 200px' }}>
           <IconCard title={t('proposito.title')} text={t('proposito.text')} icon={<FaBuilding />} />
@@ -48,22 +42,17 @@ export default async function Home() {
           />
         </div>
       </div>
-      <PicCard reverse image={piccard1} title={t('piccard1.title')} text={t('piccard1.text')} />
+      <PicCard reverse image={catalog.home.piccard1} title={t('piccard1.title')} text={t('piccard1.text')} />
       <Track title={t('track1.title')} text={t('track1.text')} />
-      <PicCard reverse image={piccard2} title={t('piccard2.title')} text={t('piccard2.text')} />
+      <PicCard reverse image={catalog.home.piccard2} title={t('piccard2.title')} text={t('piccard2.text')} />
       <Track title={t('track2.title')} text={t('track2.text')} />
-      <Gallery images={[piccard1, piccard2]} />
+      <Gallery images={['/home/pic1', '/home/pic2', '/home/pic4']} />
       <Track title={t('track3.title')} text="" />
       <Carousel width={800}>
-        <Image src={piccard1} height={500} width={800} alt="image1" />
-        <Image src={piccard2} height={500} width={800} alt="image2" />
+        <Image src={'/home/pic5'} height={500} width={800} alt="image1" />
+        <Image src={'/home/pic6'} height={500} width={800} alt="image2" />
       </Carousel>
       <Track title={t('track3.title')} text="" />
-      <Carousel width={600} height={250}>
-        {testemonials.map((c: ITestemonial, index: number) => (
-          <Testemonial key={index} testemonial={c} />
-        ))}
-      </Carousel>
     </main>
   );
 }
