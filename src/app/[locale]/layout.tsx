@@ -2,6 +2,7 @@ import { Footer, Header } from '@/components';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { NextIntlClientProvider, useLocale } from 'next-intl';
+import Contact from '@/components/contact/contact';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,6 +20,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           <div>{children}</div>
+          <Contact />
           <Footer />
         </NextIntlClientProvider>
       </body>

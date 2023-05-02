@@ -8,10 +8,16 @@
   transition: 0.5s;
   display: flex;
   align-items: center;
+  .logo {
+    filter: brightness(10000%);
+  }
   &.scroll {
     background-color: white;
     box-shadow: 0 0 10px;
     z-index: 110;
+    .logo {
+      filter: brightness(100%);
+    }
     nav {
       a {
         color: black;

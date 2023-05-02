@@ -1,8 +1,9 @@
 'use client';
-import { Link, useLocale } from 'next-intl';
+import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { locales } from '../../../i18n';
+import Link from 'next/link';
 
 function LocaleSwitcher() {
   const locale = useLocale();
