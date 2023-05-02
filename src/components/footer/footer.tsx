@@ -17,7 +17,7 @@ function Footer() {
         <SocialMedia title="@sigaresid" href="https://www.instagram.com/sigaresid/" media="instagram" />
       </div>
       <div className={styles.column}>
-        <h3>{t('footer.faleconosco')}</h3>
+        <h4>{t('footer.faleconosco')}</h4>
         <div>
           <FaHome /> Av. Olavo Lacerda Montenegro, 5400, Parque das Nações, Sala Resid, Parnamirim - RN
         </div>
@@ -29,7 +29,7 @@ function Footer() {
         </div>
       </div>
       <div className={styles.column}>
-        <h3>{t('footer.menu')}</h3>
+        <h4>{t('footer.menu')}</h4>
         <div>
           <Link href="/realizacoes">{t('footer.realizacoes')}</Link>
         </div>
