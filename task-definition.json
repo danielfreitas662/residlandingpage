@@ -1,0 +1,79 @@
+{
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:860416977312:task-definition/resid-task:1",
+    "containerDefinitions": [
+        {
+            "name": "resid-image",
+            "image": "860416977312.dkr.ecr.us-east-1.amazonaws.com/resid-image",
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "name": "resid-image-3000-tcp",
+                    "containerPort": 3000,
+                    "hostPort": 3000,
+                    "protocol": "tcp",
+                    "appProtocol": "http"
+                }
+            ],
+            "essential": true,
+            "environment": [
+                {
+                    "name": "NEXT_PUBLIC_FILE_SHARE_CONN_STRING",
+                    "value": "DefaultEndpointsProtocol=https;AccountName=elevarstorage;AccountKey=Lro/ojmwk74/e3Xik8CrTTwUnZxxnKoTiWYwhLwlMBOc/+qZFlvkZV2wVpm8StzWj5S15B8IWaqC6K2b/BLqNA==;EndpointSuffix=core.windows.net"
+                },
+                {
+                    "name": "NEXT_PUBLIC_DOMAIN",
+                    "value": "http://localhost:3000"
+                },
+                {
+                    "name": "NEXT_PUBLIC_SAS_TOKEN",
+                    "value": "?sv=2021-12-02&ss=f&srt=sco&sp=rl&se=2028-02-05T07:07:09Z&st=2023-05-01T23:07:09Z&spr=https&sig=xg6%2FTrRGrnNuA9uSqvKDlBUfKgATT0WeqgV99gF0fQo%3D"
+                },
+                {
+                    "name": "NEXT_PUBLIC_CONTENT_ADDRESS",
+                    "value": "https://elevarstorage.file.core.windows.net/resid/home/"
+                }
+            ],
+            "environmentFiles": [],
+            "mountPoints": [],
+            "volumesFrom": [],
+            "ulimits": []
+        }
+    ],
+    "family": "resid-task",
+    "executionRoleArn": "arn:aws:iam::860416977312:role/ecsTaskExecutionRole",
+    "networkMode": "awsvpc",
+    "revision": 1,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+        },
+        {
+            "name": "ecs.capability.task-eni"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2",
+        "FARGATE"
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "512",
+    "memory": "1024",
+    "runtimePlatform": {
+        "cpuArchitecture": "X86_64",
+        "operatingSystemFamily": "LINUX"
+    },
+    "registeredAt": "2023-05-02T12:25:48.703Z",
+    "registeredBy": "arn:aws:iam::860416977312:root",
+    "tags": []
+}
