@@ -35,6 +35,56 @@ async function Realizacoes() {
             />
           </Album>
         </div>
+        <div className={styles.item}>
+          <Album cover={catalog.home.picture1.url}>
+            <Image
+              src={catalog.home.picture10.url}
+              alt="image1"
+              width={2000}
+              height={2000}
+              style={{ maxWidth: '90%', height: 'auto' }}
+            />
+            <Image
+              src={catalog.home.picture11.url}
+              alt="image2"
+              width={2000}
+              height={2000}
+              style={{ maxWidth: '90%', height: 'auto' }}
+            />
+            <Image
+              src={catalog.home.picture12.url}
+              alt="image3"
+              width={2000}
+              height={2000}
+              style={{ maxWidth: '90%', height: 'auto' }}
+            />
+          </Album>
+        </div>
+        <div className={styles.item}>
+          <Album cover={catalog.home.picture1.url}>
+            <Image
+              src={catalog.home.picture10.url}
+              alt="image1"
+              width={2000}
+              height={2000}
+              style={{ maxWidth: '90%', height: 'auto' }}
+            />
+            <Image
+              src={catalog.home.picture11.url}
+              alt="image2"
+              width={2000}
+              height={2000}
+              style={{ maxWidth: '90%', height: 'auto' }}
+            />
+            <Image
+              src={catalog.home.picture12.url}
+              alt="image3"
+              width={2000}
+              height={2000}
+              style={{ maxWidth: '90%', height: 'auto' }}
+            />
+          </Album>
+        </div>
       </div>
     </main>
   );
