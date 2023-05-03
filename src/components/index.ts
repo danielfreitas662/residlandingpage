@@ -7,4 +7,5 @@ import Fullscreen from './fullscreen/fullscreen';
 import Carousel from './carousel/carousel';
 import LocaleSwitcher from './localeSwitcher/localeSwitcher';
 import IconCard from './iconCard/iconCard';
-export { Header, FullVideo, Footer, Track, SocialMedia, Fullscreen, Carousel, LocaleSwitcher, IconCard };
+import Album from './album/album';
+export { Header, FullVideo, Footer, Track, SocialMedia, Fullscreen, Carousel, LocaleSwitcher, IconCard, Album };

@@ -9,8 +9,9 @@
       flex-shrink: 0;
       display: none;
       position: absolute;
+      width: 100%;
       img {
-        object-fit: cover;
+        object-fit: contain;
       }
 
       &.active {
@@ -18,20 +19,20 @@
         &.next {
           &.lefttransition {
             animation-play-state: running;
-            animation: arriveLeft 0.5s ease 1;
+            animation: arriveRight 0.5s ease 1;
           }
           &.righttransition {
-            animation: arriveRight 0.5s ease 1;
+            animation: arriveLeft 0.5s ease 1;
           }
         }
       }
       &.leaving {
         display: flex;
         &.lefttransition {
-          animation: leaveRight 0.5s ease 1;
+          animation: leaveLeft 0.5s ease 1;
         }
         &.righttransition {
-          animation: leaveLeft 0.5s ease 1;
+          animation: leaveRight 0.5s ease 1;
         }
       }
     }
@@ -69,11 +70,11 @@
       height: 28px;
       border: none;
       padding: 3px;
-      font-size: 1.1rem;
+      font-size: 1.5rem;
       font-weight: bold;
       cursor: pointer;
       top: 50%;
-      opacity: 0.5;
+      opacity: 0.4;
       transition: background-color 0.3s ease;
       transition: 0.5s;
       &:hover {
@@ -97,7 +98,7 @@
     opacity: 1;
   }
   to {
-    transform: translateX(-200%);
+    transform: translateX(-100%);
     opacity: 0;
   }
 }
@@ -107,13 +108,13 @@
     opacity: 1;
   }
   to {
-    transform: translateX(200%);
+    transform: translateX(100%);
     opacity: 0;
   }
 }
 @keyframes arriveLeft {
   from {
-    transform: translateX(-200%);
+    transform: translateX(-100%);
     opacity: 0;
   }
   to {
@@ -123,7 +124,7 @@
 }
 @keyframes arriveRight {
   from {
-    transform: translateX(200%);
+    transform: translateX(100%);
     opacity: 0;
   }
   to {
