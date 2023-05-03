@@ -2,21 +2,25 @@
   "home": {
     "piccard1": {
       "title": "Bem-vindo à Resid - Casa com seu jeito!",
-      "text": "Nós somos uma construtora especializada em casas de alto padrão, e nosso objetivo é proporcionar a você a casa dos seus sonhos. Com um corpo técnico altamente capacitado, cuidamos de todo o processo, desde a legalização até a entrega das chaves, para que você possa desfrutar de uma experiência tranquila e sem preocupações."
+      "text": "Nós somos uma construtora especializada em casas de alto padrão, e nosso objetivo é proporcionar a você a casa dos seus sonhos."
     },
     "piccard2": {
+      "title": "Corpo Técnico Capacitado",
+      "text": "Com um corpo técnico altamente capacitado, cuidamos de todo o processo, desde a legalização até a entrega das chaves, para que você possa desfrutar de uma experiência tranquila e sem preocupações."
+    },
+    "piccard3": {
       "title": "Excelência e Transparência",
+      "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade."
+    },
+    "piccard4": {
+      "title": "Cuidado e Dedicação",
       "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade."
     },
     "track1": {
-      "title": "Excelência e Transparência",
-      "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade."
+      "title": "Portal do Cliente",
+      "text": "Na Resid, entendemos que construir uma casa é um investimento significativo, tanto em termos financeiros quanto emocionais. É por isso que nos dedicamos a tornar o processo o mais fácil e agradável possível para nossos clientes. Nós cuidamos de cada detalhe, para que você possa se concentrar em criar memórias em seu novo lar."
     },
     "track2": {
-      "title": "Empreendimentos",
-      "text": ""
-    },
-    "track3": {
       "title": "Depoimentos",
       "text": ""
     },
@@ -49,24 +53,30 @@
     "testemonials": [
       {
         "avatar": "/images/home/avatar.avif",
-        "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade.",
-        "name": "Fulano de tal"
+        "text": "Espetacular atendimento. A empresa explica todos os detalhes do processo para construção e aquisição do imóvel. Serviço impecável.",
+        "name": "Vitor Castim"
       },
       {
         "avatar": "/images/home/avatar.avif",
-        "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade.",
-        "name": "Alexandre o grande"
-      },
-      {
-        "avatar": "/images/home/avatar.avif",
-        "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade.",
-        "name": "Cliente safado"
-      },
-      {
-        "avatar": "/images/home/avatar.avif",
-        "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade.",
-        "name": "Homem que virou mulher"
+        "text": "Minha reunião de fechamento foi com Daniel um dos sócios da empresa. Atencioso, escuta o cliente. Da soluções. Todos estão sempre aposto ao lhe ouvir. Excelente equipe. Nunca deixaram de me responder uma msg ou me dar algum retorno sempre que solicitei.",
+        "name": "Osmanilson"
       }
     ]
+  },
+  "sobre": {
+    "track1": {
+      "title": "Nossa Estrutura",
+      "text": "Conheça nossa estrutura, venha nos visitar"
+    },
+    "piccard1": {
+      "title": "Construíndo Sonhos de Alto Padrão",
+      "text": "A RESID nasceu em 2019 para atuar na construção de imóveis residenciais de alto padrão em Natal e Região Metropolitana. Nossa missão é explorar o crescimento do mercado imobiliário clientes que valorizam qualidade acima de tudo, oferecendo a excelência em todas as etapas do processo, desde a legalização até a entrega das chaves. Não vendemos apenas a casa, o terreno ou o projeto. Oferecemos a paz e tranquilidade de uma construtora com vasta experiência, que resolve todas as burocracias para entregar o melhor para seus clientes e par-ceiros, sem dor de cabeça, sem externar situações in-desejadas, resolvendo tudo com praticidade e ética."
+    }
+  },
+  "contato": {
+    "track1": {
+      "title": "Entre em Contato",
+      "text": "Entre em contato conosco hoje mesmo para saber mais sobre nossos serviços e como podemos ajudá-lo a construir a casa dos seus sonhos. Estamos ansiosos para trabalhar com você!"
+    }
   }
 }

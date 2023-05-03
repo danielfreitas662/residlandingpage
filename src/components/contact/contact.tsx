@@ -1,9 +1,9 @@
 import Track from '../track/track';
 import styles from './contact.module.scss';
-function Contact() {
+function Contact({ content }: { content: any }) {
   return (
     <>
-      <Track title="Entre em Contato" text="" />
+      <Track title={content('track1.title')} text={content('track1.text')} />
       <div className={styles.contact}>
         <div className={styles.form}>
           <h4>Envie-nos uma mensagem</h4>
