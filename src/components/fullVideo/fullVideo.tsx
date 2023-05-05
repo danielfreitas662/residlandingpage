@@ -1,3 +1,4 @@
+import styles from './video.module.scss';
 function FullVideo({
   file,
   type,
@@ -12,7 +13,7 @@ function FullVideo({
   height?: number;
 }) {
   return (
-    <div style={{ width: '100%', overflow: 'hidden', display: 'block', height: height }}>
+    <div className={styles.video} style={{ width: '100%', overflow: 'hidden', display: 'block', height: height }}>
       <video
         autoPlay
         loop
