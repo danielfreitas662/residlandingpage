@@ -38,7 +38,7 @@ function Album({ cover, children, title, area, project }: AlbumProps) {
   return (
     <div className={styles.album}>
       <div className={styles.cover} onClick={() => handleOn()}>
-        <Image src={cover} alt="cover" width={200} height={200} style={{ objectFit: 'cover' }} />
+        <Image src={cover} alt="cover" width={400} height={400} style={{ objectFit: 'cover' }} />
       </div>
       <div className={styles.content}>
         <div className={clsx({ [styles.title]: true, [styles.item]: true })}>
