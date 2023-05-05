@@ -52,7 +52,7 @@ export default async function Home() {
         </div>
       </div>
       <Track title={t('track2.title')} text={t('track2.text')} />
-      <Carousel height={200}>
+      <Carousel height={250}>
         {testemonials.map((c: ITestemonial, index: number) => (
           <Testemonial key={index} testemonial={c} />
         ))}

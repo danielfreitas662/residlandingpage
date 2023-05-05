@@ -18,19 +18,70 @@
     .logo {
       filter: brightness(100%);
     }
-    nav {
-      a {
+    .navigation {
+      .menubutton {
         color: black;
+      }
+      nav {
+        a {
+          color: black;
+        }
       }
     }
   }
-  nav {
-    display: flex;
-    justify-content: right;
-    gap: 10px 10px;
-    a {
+  .navigation {
+    .menubutton {
       color: white;
-      text-transform: uppercase;
+      cursor: pointer;
+      font-size: 1.7em;
     }
+    nav {
+      display: flex;
+      justify-content: right;
+      gap: 10px 10px;
+      display: none;
+      &.show {
+        display: flex;
+        position: fixed;
+        right: 0;
+        top: 73px;
+        background-color: white;
+        box-shadow: 4px 4px 10px;
+        flex-direction: column;
+      }
+      &.transitionOn {
+        transform-origin: top;
+        animation: menuOn 0.5s ease 1;
+      }
+      &.transitionOff {
+        transform-origin: top;
+        animation: menuOff 0.5s ease 1;
+      }
+      a {
+        padding: 10px;
+        text-transform: uppercase;
+        &:hover {
+          color: white;
+          background-color: green;
+        }
+      }
+    }
+  }
+}
+
+@keyframes menuOn {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+@keyframes menuOff {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0);
   }
 }
