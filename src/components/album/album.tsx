@@ -6,7 +6,9 @@ import clsx from 'clsx';
 import Carousel from '../carousel/carousel';
 import { FaAt, FaIcons, FaPlus, FaProjectDiagram } from 'react-icons/fa';
 import { AiFillProject } from 'react-icons/ai';
-import { MdOutlineDesignServices } from 'react-icons/md';
+import { BsHouseDoor, BsHouseFill } from 'react-icons/bs';
+import { RxDimensions } from 'react-icons/rx';
+import { MdDesignServices, MdOutlineDesignServices } from 'react-icons/md';
 
 interface AlbumProps {
   cover: string;
@@ -39,12 +41,24 @@ function Album({ cover, children, title, area, project }: AlbumProps) {
         <Image src={cover} alt="cover" width={200} height={200} style={{ objectFit: 'cover' }} />
       </div>
       <div className={styles.content}>
-        <div className={styles.title}>
-          <AiFillProject />
-          {title}
+        <div className={clsx({ [styles.title]: true, [styles.item]: true })}>
+          <div className={styles.icon}>
+            <BsHouseDoor />
+          </div>
+          <div className={styles.text}>{title}</div>
         </div>
-        <div className={styles.project}><MdOutlineDesignServices/>{project}</div>
-        <div className={styles.area}>{area}</div>
+        <div className={styles.item}>
+          <div className={styles.icon}>
+            <MdDesignServices />
+          </div>
+          <div className={styles.text}>{project}</div>
+        </div>
+        <div className={clsx({ [styles.item]: true, [styles.area]: true })}>
+          <div className={styles.icon}>
+            <RxDimensions />
+          </div>
+          <div className={styles.text}>{area}</div>
+        </div>
       </div>
       <div className={clsx({ [styles.fullscreen]: true, [styles.full]: full })}>
         <div className={styles.close} onClick={() => handleOff()}>
