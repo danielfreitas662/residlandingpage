@@ -4,6 +4,8 @@
   position: relative;
   .inner {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     .item {
       flex-shrink: 0;
@@ -11,11 +13,14 @@
       position: absolute;
       height: 100%;
       img {
-        object-fit: contain;
+        object-fit: cover;
+        height: 100%;
+        width: auto;
       }
-
       &.active {
         display: flex;
+        align-items: center;
+        justify-content: center;
         &.next {
           &.lefttransition {
             animation-play-state: running;

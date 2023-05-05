@@ -4,13 +4,18 @@ import styles from './album.module.scss';
 import { ReactNode, useState } from 'react';
 import clsx from 'clsx';
 import Carousel from '../carousel/carousel';
-import { FaPlus } from 'react-icons/fa';
+import { FaAt, FaIcons, FaPlus, FaProjectDiagram } from 'react-icons/fa';
+import { AiFillProject } from 'react-icons/ai';
+import { MdOutlineDesignServices } from 'react-icons/md';
 
 interface AlbumProps {
   cover: string;
+  title: string;
+  area: number;
+  project: string;
   children: ReactNode[];
 }
-function Album({ cover, children }: AlbumProps) {
+function Album({ cover, children, title, area, project }: AlbumProps) {
   const [full, setFull] = useState(false);
   const [transitionOn, setTransitionOn] = useState(false);
   const [transitionOff, setTransitionOff] = useState(false);
@@ -32,6 +37,14 @@ function Album({ cover, children }: AlbumProps) {
     <div className={styles.album}>
       <div className={styles.cover} onClick={() => handleOn()}>
         <Image src={cover} alt="cover" width={200} height={200} style={{ objectFit: 'cover' }} />
+      </div>
+      <div className={styles.content}>
+        <div className={styles.title}>
+          <AiFillProject />
+          {title}
+        </div>
+        <div className={styles.project}><MdOutlineDesignServices/>{project}</div>
+        <div className={styles.area}>{area}</div>
       </div>
       <div className={clsx({ [styles.fullscreen]: true, [styles.full]: full })}>
         <div className={styles.close} onClick={() => handleOff()}>

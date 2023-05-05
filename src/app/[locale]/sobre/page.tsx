@@ -8,7 +8,7 @@ async function Sobre() {
 
   return (
     <main className={styles.main}>
-      <FullVideo file={catalog.home.video6.url} type={catalog.home.video6.type} />
+      <FullVideo file={catalog.home.video6.url} type={catalog.home.video6.type} controls muted={false} />
       <PicCard title={t('piccard1.title')} text={t('piccard1.text')} image={catalog.home.picture30.url} height={380} />
       <Track title={t('track1.title')} text={t('track1.text')} />
       <FullVideo file={catalog.home.video5.url} type={catalog.home.video5.type} />

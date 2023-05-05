@@ -8,4 +8,17 @@ import Carousel from './carousel/carousel';
 import LocaleSwitcher from './localeSwitcher/localeSwitcher';
 import IconCard from './iconCard/iconCard';
 import Album from './album/album';
-export { Header, FullVideo, Footer, Track, SocialMedia, Fullscreen, Carousel, LocaleSwitcher, IconCard, Album };
+import FullHeightVideo from './fullHeightVideo/fullHeightVideo';
+export {
+  Header,
+  FullVideo,
+  Footer,
+  Track,
+  SocialMedia,
+  Fullscreen,
+  Carousel,
+  LocaleSwitcher,
+  IconCard,
+  Album,
+  FullHeightVideo,
+};

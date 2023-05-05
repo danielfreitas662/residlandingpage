@@ -1,6 +1,6 @@
 import PicCard from '@/components/picCard/pickCard';
 import styles from './page.module.css';
-import { FullVideo, IconCard, Track } from '@/components';
+import { FullHeightVideo, FullVideo, IconCard, Track } from '@/components';
 import { getTranslations } from 'next-intl/server';
 import Testemonial, { ITestemonial } from '@/components/testemonial/testemonial';
 import { useLocale } from 'next-intl';
@@ -15,7 +15,8 @@ export default async function Home() {
   const testemonials = (await import(`../../messages/${locale}.json`)).default.home.testemonials;
   return (
     <main className={styles.main}>
-      <FullVideo file={catalog.home.video1.url} type={catalog.home.video1.type} />
+      <FullHeightVideo file={catalog.home.video1.url} type={catalog.home.video1.type} />
+      {false && <FullVideo file={catalog.home.video1.url} type={catalog.home.video1.type} />}
       <PicCard image={catalog.home.picture24.url} title={t('piccard1.title')} text={t('piccard1.text')} />
       <PicCard image={catalog.home.picture3.url} title={t('piccard2.title')} text={t('piccard2.text')} reverse />
       <PicCard image={catalog.home.picture8.url} title={t('piccard3.title')} text={t('piccard3.text')} />
@@ -28,7 +29,7 @@ export default async function Home() {
         <Image src={catalog.home.picture29.url} height={500} width={800} alt="image5" />
       </Carousel>
       <PicCard image={catalog.home.picture20.url} title={t('piccard4.title')} text={t('piccard4.text')} reverse />
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', marginTop: 50, marginBottom: 50 }}>
         <div style={{ flex: '1 1 200px' }}>
           <IconCard title={t('proposito.title')} text={t('proposito.text')} icon={<FaBuilding />} />
         </div>

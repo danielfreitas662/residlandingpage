@@ -11,7 +11,7 @@ async function Realizacoes() {
       <Track title={t('track1.title')} text={t('track1.text')} />
       <div className={styles.grid}>
         <div className={styles.item}>
-          <Album cover={catalog.home.picture1.url}>
+          <Album cover={catalog.home.picture1.url} title="Casa R&N" project="Priscilla Mendes" area={413}>
             <Image
               src={catalog.home.picture10.url}
               alt="image1"
@@ -36,7 +36,7 @@ async function Realizacoes() {
           </Album>
         </div>
         <div className={styles.item}>
-          <Album cover={catalog.home.picture1.url}>
+          <Album cover={catalog.home.picture1.url} title="Casa R&N" project="Priscilla Mendes" area={413}>
             <Image
               src={catalog.home.picture10.url}
               alt="image1"
@@ -61,7 +61,7 @@ async function Realizacoes() {
           </Album>
         </div>
         <div className={styles.item}>
-          <Album cover={catalog.home.picture1.url}>
+          <Album cover={catalog.home.picture1.url} title="Casa R&N" project="Priscilla Mendes" area={413}>
             <Image
               src={catalog.home.picture10.url}
               alt="image1"

@@ -1,11 +1,11 @@
 import { Footer, Header } from '@/components';
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Cabin_Condensed } from 'next/font/google';
 import { NextIntlClientProvider, useLocale } from 'next-intl';
 import Contact from '@/components/contact/contact';
 import { getTranslations } from 'next-intl/server';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Cabin_Condensed({ subsets: ['latin'], weight: '400' });
 
 export const metadata = {
   title: 'Resid',

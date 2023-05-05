@@ -56,6 +56,7 @@ function Navigation() {
           [styles.transitionOff]: transitionOff,
         })}
       >
+        <Link href="/">{t('footer.inicio')}</Link>
         <Link href="/realizacoes">{t('footer.realizacoes')}</Link>
         <Link href="/sobre">{t('footer.sobre')}</Link>
         <Link href="/servicos">{t('footer.servicos')}</Link>
