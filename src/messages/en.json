@@ -1,31 +1,31 @@
 {
   "home": {
     "piccard1": {
-      "title": "Welcome to Resid - Casa com seu jeito!",
-      "text": "Nós somos uma construtora especializada em casas de alto padrão, e nosso objetivo é proporcionar a você a casa dos seus sonhos."
+      "title": "Welcome to Resid - House your way!",
+      "text": "We are a builder specializing in high-end homes, and our goal is to provide you with the home of your dreams."
     },
     "piccard2": {
-      "title": "Corpo Técnico Capacitado",
-      "text": "Com um corpo técnico altamente capacitado, cuidamos de todo o processo, desde a legalização até a entrega das chaves, para que você possa desfrutar de uma experiência tranquila e sem preocupações."
+      "title": "Qualified Technical Staff",
+      "text": "With a highly qualified technical staff, we take care of the entire process, from legalization to handing over the keys, so that you can enjoy a smooth and worry-free experience."
     },
     "piccard3": {
-      "title": "Excelência e Transparência",
-      "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade."
+      "title": "Excellence and Transparency",
+      "text": "Transparency and excellence in execution are Resid's trademarks. We believe transparency is key to building trust with our clients, which is why we strive to be clear and honest at every step of the process. Excellence in execution is a matter of pride for us, and we strive to ensure that each project is completed to the highest standards of quality."
     },
     "piccard4": {
-      "title": "Cuidado e Dedicação",
-      "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade."
+      "title": "Care and Dedication",
+      "text": "Transparency and excellence in execution are Resid's trademarks. We believe transparency is key to building trust with our clients, which is why we strive to be clear and honest at every step of the process. Excellence in execution is a matter of pride for us, and we strive to ensure that each project is completed to the highest standards of quality."
     },
     "track1": {
-      "title": "Portal do Cliente",
-      "text": "Na Resid, entendemos que construir uma casa é um investimento significativo, tanto em termos financeiros quanto emocionais. É por isso que nos dedicamos a tornar o processo o mais fácil e agradável possível para nossos clientes. Nós cuidamos de cada detalhe, para que você possa se concentrar em criar memórias em seu novo lar."
+      "title": "Customer Portal",
+      "text": "At Resid, we understand that building a home is a significant investment, both financially and emotionally. That's why we're dedicated to making the process as easy and enjoyable as possible for our customers. We take care of every detail, so you can focus on creating memories in your new home."
     },
     "track2": {
-      "title": "Depoimentos",
+      "title": "Testimonials",
       "text": ""
     },
     "footer": {
-      "slogan": "Casa com seu jeito",
+      "slogan": "House your way",
       "faleconosco": "TALK TO US",
       "menu": "MENU",
       "inicio": "Home",
@@ -37,17 +37,17 @@
     "testemonials": [
       {
         "avatar": "/images/home/avatar.avif",
-        "text": "Arthur, boa noite. Hoje te escrevo com o coração repleto de gratidão. Passamos muitos perrengues, passei muitas noites sem dormir, precisei dizer coisas que não queria dizer, sofri muito com a ansiedade de Jefferson, mas você não me deixou na mão em nenhum momento. Vc me ouviu, me amparou assumindo até papéis que não eram seus. Hoje olho para trás e vejo que o que passou ficou como lembrança. E, o que fica é grandioso, uma casa linda, do jeito que imaginei, o meu sonho realizado, um lar para minha família.Te agradeço de coração. Ainda teremos ajustes para fazer, papéis para assinar, recursos para transferir, mas o momento da vistoria foi um marco para mim, a sinalização de que a casa está pronta!!!!! E a Resid, representada por você, Daniel e o pulso firme de Danielle, a colaboração de Gabriela e Mateus e tantas outras pessoas que usaram as mãos para transformar os recursos em uma casa linda, a minha casa!!!!Obrigada. ❤️ ",
+        "text": "Arthur, good night. Today I write to you with a heart full of gratitude. We went through many troubles, I spent many sleepless nights, I had to say things I didn't want to say, I suffered a lot with Jefferson's anxiety, but you never let me down. You listened to me, supported me by taking on roles that weren't his. Today I look back and see that what happened remained as a memory. And what remains is grandiose, a beautiful house, the way I imagined it, my dream come true, a home for my family. I thank you from the bottom of my heart. We will still have adjustments to make, papers to sign, resources to transfer, but the moment of the inspection was a milestone for me, the signal that the house is ready!!!!! And Resid, represented by you, Daniel and Danielle's firm hand, the collaboration of Gabriela and Mateus and so many other people who used their hands to transform resources into a beautiful house, my house!!!!Thank you. ❤️ ",
         "name": "Luciana Guedes"
       },
       {
         "avatar": "/images/home/avatar.avif",
-        "text": "Espetacular atendimento. A empresa explica todos os detalhes do processo para construção e aquisição do imóvel. Serviço impecável.",
+        "text": "Spectacular service. The company explains all the details of the process for construction and acquisition of the property. Impeccable service.",
         "name": "Vitor Castim"
       },
       {
         "avatar": "/images/home/avatar.avif",
-        "text": "Minha reunião de fechamento foi com Daniel um dos sócios da empresa. Atencioso, escuta o cliente. Da soluções. Todos estão sempre aposto ao lhe ouvir. Excelente equipe. Nunca deixaram de me responder uma msg ou me dar algum retorno sempre que solicitei.",
+        "text": "My closing meeting was with Daniel, one of the company's partners. Attentive, listens to the customer. Give solutions. Everyone is always ready to listen to you. Excellent team. They never failed to answer me a message or give me some feedback whenever I requested it.",
         "name": "Osmanilson"
       }
     ]
@@ -55,76 +55,76 @@
   "sobre": {
     "track1": {
       "title": "Our Structure",
-      "text": "Conheça nossa estrutura, venha nos visitar"
+      "text": "Know our structure, come visit us"
     },
     "piccard1": {
-      "title": "Construíndo Sonhos de Alto Padrão",
-      "text": "A RESID nasceu em 2019 para atuar na construção de imóveis residenciais de alto padrão em Natal e Região Metropolitana. Nossa missão é explorar o crescimento do mercado imobiliário clientes que valorizam qualidade acima de tudo, oferecendo a excelência em todas as etapas do processo, desde a legalização até a entrega das chaves. Não vendemos apenas a casa, o terreno ou o projeto. Oferecemos a paz e tranquilidade de uma construtora com vasta experiência, que resolve todas as burocracias para entregar o melhor para seus clientes e par-ceiros, sem dor de cabeça, sem externar situações in-desejadas, resolvendo tudo com praticidade e ética."
+      "title": "Building High Standard Dreams",
+      "text": "RESID was born in 2019 to work in the construction of high-end residential properties in Natal and the Metropolitan Region. Our mission is to exploit the growth of the real estate market for clients who value quality above all else, offering excellence in all stages of the process, from legalization to delivery of keys. We don't just sell the house, the land or the project. We offer the peace and tranquility of a construction company with extensive experience, which resolves all bureaucracies to deliver the best to its customers and partners, without headaches, without expressing unwanted situations, solving everything with practicality and ethics."
     },
     "proposito": {
-      "title": "NOSSO PROPÓSITO",
-      "text": "Proporcionar segurança e tranquilidade oas nossos clientes e parceiros. tornando o processo ed construcão o mais leve possível, e garantindo que todos eles sejam entregues com altíssimo nível de excelência, sofisticação e confiabilidade."
+      "title": "OUR PURPOSE",
+      "text": "Provide security and peace of mind to our customers and partners. making the construction process as light as possible, and ensuring that all of them are delivered with the highest level of excellence, sophistication and reliability."
     },
     "aspiracao": {
-      "title": "NOSSA ASPIRAÇÃO",
-      "text": "Ser aprimeira opcão de escolha de nossos clientes e parceiros na execução de seus projetos. Construir relacionamentos duradouros e satisfatórios. Ser reconhecida pela qualidade e eficiência em nossas soluções, tornando-nos referência no mercado."
+      "title": "OUR ASPIRATION",
+      "text": "To be the first option of choice for our clients and partners in the execution of their projects. Build lasting and satisfying relationships. To be recognized for the quality and efficiency of our solutions, making us a reference in the market."
     },
     "valores": {
-      "title": "VALORES E CRENÇAS",
+      "title": "VALUES AND BELIEFS",
       "text": {
-        "a": "Somos excelentes na execução",
-        "b": "Focamos em gerar resultados",
-        "c": "Cuidamos de tudo para que os projetos dos nossos arquitetos e parceiros possam brilhar",
-        "d": "Somos transparentes como nossos clientes e parceiros",
-        "e": "Nosso parceiro também é nosso cliente"
+        "a": "We are excellent at execution",
+        "b": "We focus on generating results",
+        "c": "We take care of everything so that the projects of our architects and partners can shine",
+        "d": "We are transparent with our customers and partners",
+        "e": "Our partner is also our customer"
       }
     }
   },
   "contato": {
     "track1": {
-      "title": "Entre em Contato",
-      "text": "Entre em contato conosco hoje mesmo para saber mais sobre nossos serviços e como podemos ajudá-lo a construir a casa dos seus sonhos. Estamos ansiosos para trabalhar com você!"
+      "title": "Contact",
+      "text": "Contact us today to learn more about our services and how we can help you build your dream home. We look forward to working with you!"
     }
   },
   "servicos": {
     "track1": {
       "title": "Our Services",
-      "text": "Conheça alguns dos nossos principais serviços"
+      "text": "Discover some of our main services"
     },
     "icon1": {
       "title": "Projects",
       "list": {
-        "a": "Elétrico",
-        "b": "Hidráulico",
-        "c": "Sanitário",
-        "d": "Estrutural",
-        "e": "Drenagem",
-        "f": "Lógica"
+        "a": "Electrical Project",
+        "b": "Hydraulic Project",
+        "c": "Sanitary Project",
+        "d": "Structural Project",
+        "e": "Drainage Project",
+        "f": "Logic Project"
       }
     },
     "icon2": {
-      "title": "Administração de Obras",
+      "title": "Works Administration",
       "list": {
-        "a": "Casas em Condomínio",
-        "b": "Reformas de Casas",
+        "a": "Condominium Houses",
+        "b": "House Renovations",
         "c": "Reformas de Apartamentos",
-        "d": "Comércio",
-        "e": "Lojas"
+        "d": "Business",
+        "e": "Stores"
       }
     },
     "icon3": {
-      "title": "Legalização",
+      "title": "Legalization",
       "list": {
-        "a": "Despachos Prefeitura",
-        "b": "Despachos Cartórios",
-        "c": "Despachos Refeita Federal",
-        "d": "Despachos Condomínio"
+        "a": "City Hall Orders",
+        "b": "Registry Orders",
+        "c": "Receita Federal Orders",
+        "d": "Condominium Orders"
       }
     }
   },
   "realizacoes": {
     "track1": {
-      "title": "Algumas de Nossas Realizações",
+      "title": "Some of Our Achievements",
       "text": ""
     }
   }
