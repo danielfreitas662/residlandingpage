@@ -2,6 +2,7 @@ import { IconCard, Track } from '@/components';
 import styles from './page.module.scss';
 import Image from 'next/image';
 import { MdManageAccounts, MdOutlineDesignServices } from 'react-icons/md';
+import { RiFileSettingsLine } from 'react-icons/ri';
 import { getTranslations } from 'next-intl/server';
 async function Servicos() {
   const t = await getTranslations('servicos');
@@ -14,37 +15,51 @@ async function Servicos() {
         height={1029}
         style={{ objectFit: 'cover', width: '100%', height: 460 }}
       />
-      <Track title="Nossos Serviços" text="Conheça alguns dos nossos principais serviços" />
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px 10px', justifyContent: 'space-between' }}>
-        <div style={{ flex: '1 1 300px' }}>
+      <Track title={t('track1.title')} text={t('track1.text')} />
+      <div className={styles.grid}>
+        <div className={styles.item}>
           <IconCard
-            title="Projetos"
+            title={t('icon1.title')}
             text={
               <ul>
-                <li>Elétrico</li>
-                <li>Hidráulico</li>
-                <li>Sanitário</li>
-                <li>Estrutural</li>
-                <li>Drenagem</li>
-                <li>Lógica</li>
+                <li>{t('icon1.list.a')}</li>
+                <li>{t('icon1.list.b')}</li>
+                <li>{t('icon1.list.c')}</li>
+                <li>{t('icon1.list.d')}</li>
+                <li>{t('icon1.list.e')}</li>
+                <li>{t('icon1.list.f')}</li>
               </ul>
             }
             icon={<MdOutlineDesignServices />}
           />
         </div>
-        <div style={{ flex: '1 1 300px' }}>
+        <div className={styles.item}>
           <IconCard
-            title="Administração de Obras"
+            title={t('icon2.title')}
             text={
               <ul>
-                <li>Casas em Condomínio</li>
-                <li>Reformas de Casas</li>
-                <li>Reformas de Apartamentos</li>
-                <li>Comércio</li>
-                <li>Lojas</li>
+                <li>{t('icon2.list.a')}</li>
+                <li>{t('icon2.list.b')}</li>
+                <li>{t('icon2.list.c')}</li>
+                <li>{t('icon2.list.d')}</li>
+                <li>{t('icon2.list.e')}</li>
               </ul>
             }
-            icon={<MdManageAccounts />}
+            icon={<MdOutlineDesignServices />}
+          />
+        </div>
+        <div className={styles.item}>
+          <IconCard
+            title={t('icon3.title')}
+            text={
+              <ul>
+                <li>{t('icon3.list.a')}</li>
+                <li>{t('icon3.list.b')}</li>
+                <li>{t('icon3.list.c')}</li>
+                <li>{t('icon3.list.d')}</li>
+              </ul>
+            }
+            icon={<MdOutlineDesignServices />}
           />
         </div>
       </div>

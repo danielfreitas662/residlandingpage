@@ -86,7 +86,42 @@
       "text": "Entre em contato conosco hoje mesmo para saber mais sobre nossos serviços e como podemos ajudá-lo a construir a casa dos seus sonhos. Estamos ansiosos para trabalhar com você!"
     }
   },
-  "servicos": {},
+  "servicos": {
+    "track1": {
+      "title": "Nossos Serviços",
+      "text": "Conheça alguns dos nossos principais serviços"
+    },
+    "icon1": {
+      "title": "Projetos",
+      "list": {
+        "a": "Elétrico",
+        "b": "Hidráulico",
+        "c": "Sanitário",
+        "d": "Estrutural",
+        "e": "Drenagem",
+        "f": "Lógica"
+      }
+    },
+    "icon2": {
+      "title": "Administração de Obras",
+      "list": {
+        "a": "Casas em Condomínio",
+        "b": "Reformas de Casas",
+        "c": "Reformas de Apartamentos",
+        "d": "Comércio",
+        "e": "Lojas"
+      }
+    },
+    "icon3": {
+      "title": "Legalização",
+      "list": {
+        "a": "Despachos Prefeitura",
+        "b": "Despachos Cartórios",
+        "c": "Despachos Refeita Federal",
+        "d": "Despachos Condomínio"
+      }
+    }
+  },
   "realizacoes": {
     "track1": {
       "title": "Algumas de Nossas Realizações",
