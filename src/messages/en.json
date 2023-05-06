@@ -84,6 +84,12 @@
     "track1": {
       "title": "Contact",
       "text": "Contact us today to learn more about our services and how we can help you build your dream home. We look forward to working with you!"
+    },
+    "form": {
+      "title": "Send us a message",
+      "phone": "Phone Number",
+      "message": "Message",
+      "send": "Send"
     }
   },
   "servicos": {

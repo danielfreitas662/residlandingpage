@@ -84,6 +84,12 @@
     "track1": {
       "title": "Entre em Contato",
       "text": "Entre em contato conosco hoje mesmo para saber mais sobre nossos serviços e como podemos ajudá-lo a construir a casa dos seus sonhos. Estamos ansiosos para trabalhar com você!"
+    },
+    "form": {
+      "title": "Envie-nos uma mensagem",
+      "phone": "Telefone",
+      "message": "Mensagem",
+      "send": "Enviar"
     }
   },
   "servicos": {

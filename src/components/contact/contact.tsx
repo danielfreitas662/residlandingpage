@@ -6,12 +6,12 @@ function Contact({ content }: { content: any }) {
       <Track title={content('track1.title')} text={content('track1.text')} />
       <div className={styles.contact}>
         <div className={styles.form}>
-          <h4>Envie-nos uma mensagem</h4>
+          <h4>{content('form.title')}</h4>
           <form>
             <input placeholder="E-mail" required type="email" />
-            <input placeholder="Telefone" required />
-            <textarea placeholder="Mensagem" rows={5} required />
-            <button type="submit">Enviar</button>
+            <input placeholder={content('form.phone')} required />
+            <textarea placeholder={content('form.message')} rows={5} required />
+            <button type="submit">{content('form.send')}</button>
           </form>
         </div>
         <div className={styles.map}>

@@ -9,10 +9,14 @@ interface SocialMediaProps {
 }
 function SocialMedia({ title, media, href }: SocialMediaProps) {
   return (
-    <Link href={href} className={styles.socialmedia} target="_blank">
+    <div className={styles.socialmedia}>
       <div className={styles.icon}>{media === 'instagram' && <FaInstagram />}</div>
-      <div className={styles.title}>{title}</div>
-    </Link>
+      <div className={styles.title}>
+        <Link href={href} target="_blank">
+          {title}
+        </Link>
+      </div>
+    </div>
   );
 }
 

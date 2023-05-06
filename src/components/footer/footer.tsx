@@ -13,7 +13,6 @@ function Footer() {
         <div>
           <Image alt="logo" src={logo} height={50} />
         </div>
-        <div>Casa com o seu jeito</div>
         <SocialMedia title="@sigaresid" href="https://www.instagram.com/sigaresid/" media="instagram" />
       </div>
       <div className={styles.column}>
