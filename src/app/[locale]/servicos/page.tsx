@@ -1,7 +1,8 @@
 import { IconCard, Track } from '@/components';
 import styles from './page.module.scss';
 import Image from 'next/image';
-import { MdOutlineDesignServices } from 'react-icons/md';
+import { MdManageAccounts, MdOutlineDesignServices } from 'react-icons/md';
+import { RiFileSettingsLine } from 'react-icons/ri';
 import { getTranslations } from 'next-intl/server';
 export const metadata = {
   title: 'Resid - Nossos Serviços',
@@ -48,7 +49,7 @@ async function Servicos() {
                 <li>{t('icon2.list.e')}</li>
               </ul>
             }
-            icon={<MdOutlineDesignServices />}
+            icon={<MdManageAccounts />}
           />
         </div>
         <div className={styles.item}>
@@ -62,7 +63,7 @@ async function Servicos() {
                 <li>{t('icon3.list.d')}</li>
               </ul>
             }
-            icon={<MdOutlineDesignServices />}
+            icon={<RiFileSettingsLine />}
           />
         </div>
       </div>
