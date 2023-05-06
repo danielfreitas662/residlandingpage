@@ -1,5 +1,5 @@
 import PicCard from '@/components/picCard/pickCard';
-import styles from './page.module.css';
+import styles from './page.module.scss';
 import { FullHeightVideo, FullVideo, Track } from '@/components';
 import { getTranslations } from 'next-intl/server';
 import Testemonial, { ITestemonial } from '@/components/testemonial/testemonial';
