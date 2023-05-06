@@ -16,7 +16,7 @@ async function Servicos() {
       />
       <Track title="Nossos Serviços" text="Conheça alguns dos nossos principais serviços" />
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px 10px', justifyContent: 'space-between' }}>
-        <div style={{ flex: '1' }}>
+        <div style={{ flex: '1 1 300px' }}>
           <IconCard
             title="Projetos"
             text={
@@ -32,7 +32,7 @@ async function Servicos() {
             icon={<MdOutlineDesignServices />}
           />
         </div>
-        <div style={{ flex: '1' }}>
+        <div style={{ flex: '1 1 300px' }}>
           <IconCard
             title="Administração de Obras"
             text={

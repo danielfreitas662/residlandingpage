@@ -1,4 +1,4 @@
-import { Album, FullVideo, Track } from '@/components';
+import { Album, Track } from '@/components';
 import styles from './page.module.scss';
 import { catalog } from '@/catalog/images';
 import { getTranslations } from 'next-intl/server';
@@ -7,7 +7,13 @@ async function Realizacoes() {
   const t = await getTranslations('realizacoes');
   return (
     <main className={styles.main}>
-      <FullVideo file={catalog.home.video2.url} type={catalog.home.video2.type} muted={true} controls={false} />
+      <Image
+        src="/images/real.jpg"
+        alt="main"
+        width={2348}
+        height={1029}
+        style={{ objectFit: 'cover', width: '100%', height: 460 }}
+      />
       <Track title={t('track1.title')} text={t('track1.text')} />
       <div className={styles.grid}>
         {catalog.realizacoes.map((r, index) => (

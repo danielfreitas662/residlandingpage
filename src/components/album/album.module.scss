@@ -66,7 +66,7 @@
       transition: 0.5s;
       &.full {
         display: flex;
-        opacity: 0.5;
+        opacity: 0.9;
       }
       &.transitionOn {
         animation: maskOn 0.5s ease-in 1;
@@ -102,12 +102,12 @@
     opacity: 0;
   }
   to {
-    opacity: 0.5;
+    opacity: 0.9;
   }
 }
 @keyframes maskOff {
   from {
-    opacity: 0.5;
+    opacity: 0.9;
   }
   to {
     opacity: 0;

@@ -32,7 +32,7 @@ function FullHeightVideo({
   return (
     <div className={styles.fullheightvideo}>
       <div className={clsx({ [styles.logo]: true, [styles.scroll]: scrollY })}>
-        <Image alt="logo" src="/images/header/logoresid.png" height={130} width={280} />
+        <Image alt="logo" src="/images/header/logoresid.png" height={170} width={400} />
       </div>
       <div className={clsx({ [styles.arrow]: true, [styles.scroll]: scrollY })}>
         <FaArrowDown />

@@ -1,12 +1,11 @@
 import PicCard from '@/components/picCard/pickCard';
 import styles from './page.module.css';
-import { FullHeightVideo, FullVideo, IconCard, Track } from '@/components';
+import { FullHeightVideo, FullVideo, Track } from '@/components';
 import { getTranslations } from 'next-intl/server';
 import Testemonial, { ITestemonial } from '@/components/testemonial/testemonial';
 import { useLocale } from 'next-intl';
 import Carousel from '@/components/carousel/carousel';
 import Image from 'next/image';
-import { FaBuilding, FaStar, FaUsers } from 'react-icons/fa';
 import { catalog } from '@/catalog/images';
 
 export default async function Home() {
@@ -29,31 +28,8 @@ export default async function Home() {
         <Image src={catalog.home.picture29.url} height={500} width={800} alt="image5" />
       </Carousel>
       <PicCard image={catalog.home.picture20.url} title={t('piccard4.title')} text={t('piccard4.text')} reverse />
-      <div style={{ display: 'flex', flexWrap: 'wrap', marginTop: 50, marginBottom: 50 }}>
-        <div style={{ flex: '1 1 200px' }}>
-          <IconCard title={t('proposito.title')} text={t('proposito.text')} icon={<FaBuilding />} />
-        </div>
-        <div style={{ flex: '1 1 200px' }}>
-          <IconCard title={t('aspiracao.title')} text={t('aspiracao.text')} icon={<FaUsers />} />
-        </div>
-        <div style={{ flex: '1 1 200px' }}>
-          <IconCard
-            title={t('valores.title')}
-            text={
-              <ul style={{ textAlign: 'left' }}>
-                <li>{t('valores.text.a')}</li>
-                <li>{t('valores.text.b')}</li>
-                <li>{t('valores.text.c')}</li>
-                <li>{t('valores.text.d')}</li>
-                <li>{t('valores.text.e')}</li>
-              </ul>
-            }
-            icon={<FaStar />}
-          />
-        </div>
-      </div>
       <Track title={t('track2.title')} text={t('track2.text')} />
-      <Carousel height={410}>
+      <Carousel height={430} width={600}>
         {testemonials.map((c: ITestemonial, index: number) => (
           <Testemonial key={index} testemonial={c} />
         ))}

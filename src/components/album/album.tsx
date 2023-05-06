@@ -1,14 +1,13 @@
 'use client';
 import Image from 'next/image';
 import styles from './album.module.scss';
-import { ReactNode, useState } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 import clsx from 'clsx';
 import Carousel from '../carousel/carousel';
-import { FaAt, FaIcons, FaPlus, FaProjectDiagram } from 'react-icons/fa';
-import { AiFillProject } from 'react-icons/ai';
-import { BsHouseDoor, BsHouseFill } from 'react-icons/bs';
+import { FaPlus } from 'react-icons/fa';
+import { BsHouseDoor } from 'react-icons/bs';
 import { RxDimensions } from 'react-icons/rx';
-import { MdDesignServices, MdOutlineDesignServices } from 'react-icons/md';
+import { MdDesignServices } from 'react-icons/md';
 
 interface AlbumProps {
   cover: string;
@@ -35,6 +34,15 @@ function Album({ cover, children, title, area, project }: AlbumProps) {
       setTransitionOff(false);
     }, 500);
   };
+  useEffect(() => {
+    const keyEvent = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') handleOff();
+    };
+    document.addEventListener('keydown', keyEvent);
+    return () => {
+      document.removeEventListener('keydown', keyEvent);
+    };
+  }, []);
   return (
     <div className={styles.album}>
       <div className={styles.cover} onClick={() => handleOn()}>

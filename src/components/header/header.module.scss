@@ -70,6 +70,7 @@
         text-transform: uppercase;
         transition: 0.5s;
         color: white;
+        z-index: 210;
         &:hover {
           color: green;
         }

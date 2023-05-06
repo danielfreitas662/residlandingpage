@@ -1,5 +1,5 @@
 'use client';
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode, useEffect, useReducer, useRef, useState } from 'react';
 import styles from './carousel.module.scss';
 import clsx from 'clsx';
 import { FaChevronCircleLeft, FaChevronCircleRight } from 'react-icons/fa';
@@ -16,6 +16,7 @@ function Carousel({ children, width = 500, height = 500 }: CarouselProps) {
   const [leavingIndex, setLeavingIndex] = useState(-1);
   const [leftTransition, setLeftTransition] = useState(false);
   const [rightTransition, setRightTransition] = useState(false);
+  const ref = useRef<any>();
 
   const handleClickPrev = (index?: number) => {
     setLeavingIndex(activeIndex);
@@ -48,8 +49,18 @@ function Carousel({ children, width = 500, height = 500 }: CarouselProps) {
       clearTimeout(timerLeave);
     };
   }, [activeIndex, nextIndex]);
+  useEffect(() => {
+    const keyEvent = (event: KeyboardEvent) => {
+      if (ref.current.contains(document.activeElement)) {
+        if (event.key === 'ArrowRight') handleClickNext();
+        else if (event.key === 'ArrowLeft') handleClickPrev();
+      }
+    };
+    document.addEventListener('keydown', keyEvent);
+    return () => document.removeEventListener('keydown', keyEvent);
+  }, []);
   return (
-    <div className={styles.carousel} style={{ maxWidth: width, maxHeight: height, minHeight: height }}>
+    <div className={styles.carousel} style={{ maxWidth: width, maxHeight: height, minHeight: height }} ref={ref}>
       <div className={styles.menu} style={{ maxWidth: width }}>
         <div className={styles.dots}>
           {children.map((_, index) => (
