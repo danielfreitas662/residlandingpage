@@ -3,6 +3,10 @@ import styles from './page.module.scss';
 import { catalog } from '@/catalog/images';
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
+export const metadata = {
+  title: 'Resid - Realizações',
+  description: 'Realizações',
+};
 async function Realizacoes() {
   const t = await getTranslations('realizacoes');
   return (

@@ -8,6 +8,10 @@ import Carousel from '@/components/carousel/carousel';
 import Image from 'next/image';
 import { catalog } from '@/catalog/images';
 
+export const metadata = {
+  title: 'Resid',
+  description: 'Casa com o seu jeito',
+};
 export default async function Home() {
   const locale = useLocale();
   const t = await getTranslations('home');

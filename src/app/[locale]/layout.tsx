@@ -8,11 +8,6 @@ import Script from 'next/script';
 
 const inter = Cabin_Condensed({ subsets: ['latin'], weight: '400' });
 
-export const metadata = {
-  title: 'Resid',
-  description: 'Casa com o seu jeito',
-};
-
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = useLocale();
   const messages = (await import(`../../messages/${locale}.json`)).default;

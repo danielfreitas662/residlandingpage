@@ -4,6 +4,11 @@ import { catalog } from '@/catalog/images';
 import { getTranslations } from 'next-intl/server';
 import PicCard from '@/components/picCard/pickCard';
 import { FaBuilding, FaStar, FaUsers } from 'react-icons/fa';
+
+export const metadata = {
+  title: 'Resid - Quem Somos',
+  description: 'Quem somos',
+};
 async function Sobre() {
   const t = await getTranslations('sobre');
   const t2 = await getTranslations('sobre');

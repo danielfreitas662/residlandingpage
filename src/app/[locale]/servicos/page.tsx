@@ -1,9 +1,12 @@
 import { IconCard, Track } from '@/components';
 import styles from './page.module.scss';
 import Image from 'next/image';
-import { MdManageAccounts, MdOutlineDesignServices } from 'react-icons/md';
-import { RiFileSettingsLine } from 'react-icons/ri';
+import { MdOutlineDesignServices } from 'react-icons/md';
 import { getTranslations } from 'next-intl/server';
+export const metadata = {
+  title: 'Resid - Nossos Serviços',
+  description: 'Nossos serviços',
+};
 async function Servicos() {
   const t = await getTranslations('servicos');
   return (
