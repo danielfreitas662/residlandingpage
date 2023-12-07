@@ -1,0 +1,26 @@
+.testemonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.5s;
+  padding: 30px;
+  .avatar {
+    img {
+      border-radius: 50%;
+    }
+  }
+  .text {
+    text-align: center;
+    &:before {
+      content: '"';
+    }
+    &:after {
+      content: '"';
+    }
+  }
+  .name {
+    font-weight: bold;
+  }
+}

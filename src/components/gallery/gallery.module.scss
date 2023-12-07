@@ -1,0 +1,172 @@
+.gallery {
+  position: relative;
+  height: 410px;
+  width: 100%;
+  max-width: 800px;
+  justify-content: center;
+  margin-bottom: 10px;
+  z-index: 100;
+  .passer {
+    z-index: 100;
+    top: calc(50% - 15px);
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    max-width: 800px;
+    color: white;
+    font-size: 1.5em;
+    &.visible {
+      display: none;
+    }
+    .button {
+      background-color: rgba(var(--card-rgb), 0.5);
+      border: 1px solid rgba(var(--card-border-rgb), 0.15);
+      color: black;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      transition: 0.2s;
+      padding: 3px;
+      cursor: pointer;
+      color: rgba(var(--card-rgb), 0.8);
+      &:hover {
+        background-color: white;
+        transform: scale(1.2);
+        color: rgba(var(--card-rgb), 1);
+      }
+    }
+  }
+  .indicators {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    top: 410px;
+    .indicator {
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      cursor: pointer;
+      background-color: rgba(var(--card-rgb), 0.5);
+      transition: 0.5s;
+      &.active {
+        background-color: rgba(var(--card-rgb), 1);
+      }
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+  .images {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    &:hover {
+      transform: scale(1.2);
+      box-shadow: 4px 4px 10px;
+    }
+    .image {
+      position: absolute;
+      transition: 1s;
+      opacity: 0;
+      &.transitionOff {
+        opacity: 0;
+      }
+      &.transitionOn {
+        opacity: 1;
+      }
+      &.active {
+        opacity: 1;
+      }
+
+      img {
+        width: 100%;
+        max-width: 800px;
+        object-fit: cover;
+      }
+    }
+  }
+  .fullscreen {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    &.visible {
+      display: flex;
+      .mask {
+        opacity: 0.7;
+      }
+      .image {
+        img {
+          transform: scale(1);
+        }
+      }
+    }
+    .image {
+      text-align: center;
+      transition: 0.7s;
+      &.transitionOn {
+        img {
+          transform: scale(0);
+        }
+      }
+      &.transitionOff {
+        img {
+          transform: scale(0);
+          opacity: 0;
+        }
+      }
+      img {
+        transform: scale(0.1);
+        transition: 0.5s;
+        z-index: 101;
+        height: 100vh;
+        width: auto;
+        object-fit: contain;
+      }
+    }
+    .mask {
+      transition: 0.5s;
+      z-index: 100;
+      height: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background-color: black;
+      transition: opacity 0.5;
+      opacity: 0.7;
+      &.transitionOff {
+        opacity: 0;
+      }
+      &.transitionOn {
+        opacity: 0;
+      }
+    }
+    .close {
+      position: absolute;
+      z-index: 102;
+      right: 0;
+      top: 0;
+      margin-top: 20px;
+      margin-right: 20px;
+      font-size: 1.2em;
+      color: white;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
+}

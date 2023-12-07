@@ -1,0 +1,137 @@
+{
+  "home": {
+    "piccard1": {
+      "title": "Welcome to Resid - House your way!",
+      "text": "We are a builder specializing in high-end homes, and our goal is to provide you with the home of your dreams."
+    },
+    "piccard2": {
+      "title": "Qualified Technical Staff",
+      "text": "With a highly qualified technical staff, we take care of the entire process, from legalization to handing over the keys, so that you can enjoy a smooth and worry-free experience."
+    },
+    "piccard3": {
+      "title": "Excellence and Transparency",
+      "text": "Transparency and excellence in execution are Resid's trademarks. We believe transparency is key to building trust with our clients, which is why we strive to be clear and honest at every step of the process. Excellence in execution is a matter of pride for us, and we strive to ensure that each project is completed to the highest standards of quality."
+    },
+    "piccard4": {
+      "title": "Care and Dedication",
+      "text": "Transparency and excellence in execution are Resid's trademarks. We believe transparency is key to building trust with our clients, which is why we strive to be clear and honest at every step of the process. Excellence in execution is a matter of pride for us, and we strive to ensure that each project is completed to the highest standards of quality."
+    },
+    "track1": {
+      "title": "Customer Portal",
+      "text": "At Resid, we understand that building a home is a significant investment, both financially and emotionally. That's why we're dedicated to making the process as easy and enjoyable as possible for our customers. We take care of every detail, so you can focus on creating memories in your new home."
+    },
+    "track2": {
+      "title": "Testimonials",
+      "text": ""
+    },
+    "footer": {
+      "slogan": "House your way",
+      "faleconosco": "TALK TO US",
+      "menu": "MENU",
+      "inicio": "Home",
+      "realizacoes": "Achievements",
+      "sobre": "About Us",
+      "servicos": "Services"
+    },
+
+    "testemonials": [
+      {
+        "avatar": "/images/home/avatar.avif",
+        "text": "Arthur, good night. Today I write to you with a heart full of gratitude. We went through many troubles, I spent many sleepless nights, I had to say things I didn't want to say, I suffered a lot with Jefferson's anxiety, but you never let me down. You listened to me, supported me by taking on roles that weren't his. Today I look back and see that what happened remained as a memory. And what remains is grandiose, a beautiful house, the way I imagined it, my dream come true, a home for my family. I thank you from the bottom of my heart. We will still have adjustments to make, papers to sign, resources to transfer, but the moment of the inspection was a milestone for me, the signal that the house is ready!!!!! And Resid, represented by you, Daniel and Danielle's firm hand, the collaboration of Gabriela and Mateus and so many other people who used their hands to transform resources into a beautiful house, my house!!!!Thank you. ❤️ ",
+        "name": "Luciana Guedes"
+      },
+      {
+        "avatar": "/images/home/avatar.avif",
+        "text": "Spectacular service. The company explains all the details of the process for construction and acquisition of the property. Impeccable service.",
+        "name": "Vitor Castim"
+      },
+      {
+        "avatar": "/images/home/avatar.avif",
+        "text": "My closing meeting was with Daniel, one of the company's partners. Attentive, listens to the customer. Give solutions. Everyone is always ready to listen to you. Excellent team. They never failed to answer me a message or give me some feedback whenever I requested it.",
+        "name": "Osmanilson"
+      }
+    ]
+  },
+  "sobre": {
+    "track1": {
+      "title": "Our Structure",
+      "text": "Know our structure, come visit us"
+    },
+    "piccard1": {
+      "title": "Building High Standard Dreams",
+      "text": "RESID was born in 2019 to work in the construction of high-end residential properties in Natal and the Metropolitan Region. Our mission is to exploit the growth of the real estate market for clients who value quality above all else, offering excellence in all stages of the process, from legalization to delivery of keys. We don't just sell the house, the land or the project. We offer the peace and tranquility of a construction company with extensive experience, which resolves all bureaucracies to deliver the best to its customers and partners, without headaches, without expressing unwanted situations, solving everything with practicality and ethics."
+    },
+    "proposito": {
+      "title": "OUR PURPOSE",
+      "text": "Provide security and peace of mind to our customers and partners. making the construction process as light as possible, and ensuring that all of them are delivered with the highest level of excellence, sophistication and reliability."
+    },
+    "aspiracao": {
+      "title": "OUR ASPIRATION",
+      "text": "To be the first option of choice for our clients and partners in the execution of their projects. Build lasting and satisfying relationships. To be recognized for the quality and efficiency of our solutions, making us a reference in the market."
+    },
+    "valores": {
+      "title": "VALUES AND BELIEFS",
+      "text": {
+        "a": "We are excellent at execution",
+        "b": "We focus on generating results",
+        "c": "We take care of everything so that the projects of our architects and partners can shine",
+        "d": "We are transparent with our customers and partners",
+        "e": "Our partner is also our customer"
+      }
+    }
+  },
+  "contato": {
+    "track1": {
+      "title": "Contact",
+      "text": "Contact us today to learn more about our services and how we can help you build your dream home. We look forward to working with you!"
+    },
+    "form": {
+      "title": "Send us a message",
+      "phone": "Phone Number",
+      "message": "Message",
+      "send": "Send"
+    }
+  },
+  "servicos": {
+    "track1": {
+      "title": "Our Services",
+      "text": "Discover some of our main services"
+    },
+    "icon1": {
+      "title": "Projects",
+      "list": {
+        "a": "Electrical Project",
+        "b": "Hydraulic Project",
+        "c": "Sanitary Project",
+        "d": "Structural Project",
+        "e": "Drainage Project",
+        "f": "Logic Project"
+      }
+    },
+    "icon2": {
+      "title": "Works Administration",
+      "list": {
+        "a": "Condominium Houses",
+        "b": "House Renovations",
+        "c": "Reformas de Apartamentos",
+        "d": "Business",
+        "e": "Stores"
+      }
+    },
+    "icon3": {
+      "title": "Legalization",
+      "list": {
+        "a": "City Hall Orders",
+        "b": "Registry Orders",
+        "c": "Receita Federal Orders",
+        "d": "Condominium Orders"
+      }
+    }
+  },
+  "realizacoes": {
+    "track1": {
+      "title": "Some of Our Achievements",
+      "text": ""
+    }
+  }
+}

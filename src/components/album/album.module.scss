@@ -1,0 +1,131 @@
+.album {
+  border: 1px solid lightgrey;
+  background-color: white;
+  .cover {
+    max-width: 400px;
+    max-height: 400px;
+
+    cursor: pointer;
+    transition: 0.5s;
+    img {
+      object-fit: fill;
+      height: 400px;
+      width: 400px;
+    }
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 2px 2px 10px;
+    }
+  }
+  .content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 10px;
+    margin-top: 10px;
+    .item {
+      display: inline-flex;
+      gap: 10px;
+      &.title {
+        font-size: 1.2em;
+      }
+      &.area {
+        &::after {
+          content: 'm²';
+        }
+      }
+    }
+  }
+  .fullscreen {
+    display: none;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    .close {
+      transform: rotate(45deg);
+      cursor: pointer;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-size: 1.3em;
+      color: white;
+      z-index: 201;
+      transition: 0.5s;
+      &:hover {
+        transform: scale(1.2) rotate(45deg);
+      }
+    }
+    .mask {
+      background-color: black;
+      opacity: 0;
+      width: 100%;
+      height: 100vh;
+      transition: 0.5s;
+      &.full {
+        display: flex;
+        opacity: 0.9;
+      }
+      &.transitionOn {
+        animation: maskOn 0.5s ease-in 1;
+      }
+      &.transitionOff {
+        animation: maskOff 0.5s ease-in 1;
+      }
+    }
+    .body {
+      top: 50%;
+      position: fixed;
+      width: 100%;
+      transform: translateX(-50%) translateY(-50%);
+      left: 50%;
+      &.full {
+        opacity: 1;
+      }
+      &.transitionOn {
+        animation: imageOn 0.5s ease-in 1;
+      }
+      &.transitionOff {
+        animation: imageOff 0.5s ease-in 1;
+      }
+    }
+    &.full {
+      display: flex;
+    }
+  }
+}
+
+@keyframes maskOn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+@keyframes maskOff {
+  from {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes imageOn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes imageOff {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
