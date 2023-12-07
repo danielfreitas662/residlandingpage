@@ -1,9 +1,10 @@
 'use client';
-import { Link, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import styles from './header.module.scss';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { useEffect, useRef, useState } from 'react';
 import clsx from 'clsx';
+import Link from 'next/link';
 
 function Navigation() {
   const t = useTranslations('home');

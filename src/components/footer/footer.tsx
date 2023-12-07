@@ -4,7 +4,8 @@ import Image from 'next/image';
 import SocialMedia from '../socialMedia/socialMedia';
 import { FaHome, FaPhone } from 'react-icons/fa';
 import { AiFillMail } from 'react-icons/ai';
-import { Link, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 function Footer() {
   const t = useTranslations('home');
   return (
