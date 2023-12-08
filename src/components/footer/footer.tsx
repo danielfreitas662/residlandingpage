@@ -19,7 +19,7 @@ function Footer() {
       <div className={styles.column}>
         <h4>{t('footer.faleconosco')}</h4>
         <div>
-          <FaHome /> Av. Olavo Lacerda Montenegro, 5400, Parque das Nações, Sala Resid, Parnamirim - RN
+          <FaHome /> Av. Campos Sales, 901, Petrópolis, Sala 808, Natal - RN
         </div>
         <div>
           <FaPhone /> (84) 98178-8383

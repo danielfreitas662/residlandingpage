@@ -2,27 +2,27 @@
   "home": {
     "piccard1": {
       "title": "Bem-vindo à Resid - Casa com seu jeito!",
-      "text": "Nós somos uma construtora especializada em casas de alto padrão, e nosso objetivo é proporcionar a você a casa dos seus sonhos."
+      "text": "Na Resid, somos especialistas em criar residências de luxo, personalizadas para refletir seus sonhos e estilo de vida. Cada casa é um marco de sofisticação e conforto."
     },
     "piccard2": {
       "title": "Corpo Técnico Capacitado",
-      "text": "Com um corpo técnico altamente capacitado, cuidamos de todo o processo, desde a legalização até a entrega das chaves, para que você possa desfrutar de uma experiência tranquila e sem preocupações."
+      "text": "Nossa equipe altamente qualificada acompanha cada fase do seu projeto, desde a legalização até a entrega das chaves, assegurando uma jornada tranquila e livre de estresse para você."
     },
     "piccard3": {
       "title": "Excelência e Transparência",
-      "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade."
+      "text": "Em cada projeto, a Resid se destaca pela transparência e excelência. Acreditamos que a honestidade cria confiança, e nos empenhamos em manter uma comunicação clara em todas as etapas. A excelência é nosso compromisso, garantindo que cada residência atenda os mais altos padrões de qualidade."
     },
     "piccard4": {
       "title": "Cuidado e Dedicação",
-      "text": "A transparência e excelência na execução são marcas registradas da Resid. Acreditamos que a transparência é fundamental para construir um relacionamento de confiança com nossos clientes, e é por isso que nos esforçamos para sermos claros e honestos em todas as etapas do processo. Já a excelência na execução é uma questão de orgulho para nós, e nos esforçamos para garantir que cada projeto seja concluído com os mais altos padrões de qualidade."
+      "text": "Na Resid, tratamos cada projeto com cuidado e dedicação personalizados. Nosso objetivo é entregar não apenas uma casa, mas um lar onde você criará memórias inesquecíveis."
     },
     "track1": {
       "title": "Portal do Cliente",
-      "text": "Na Resid, entendemos que construir uma casa é um investimento significativo, tanto em termos financeiros quanto emocionais. É por isso que nos dedicamos a tornar o processo o mais fácil e agradável possível para nossos clientes. Nós cuidamos de cada detalhe, para que você possa se concentrar em criar memórias em seu novo lar."
+      "text": "Compreendemos o significado emocional e financeiro de construir uma casa. Por isso, nos dedicamos a tornar este processo o mais agradável e sem complicações possível, cuidando de cada detalhe para que você possa se concentrar em viver os melhores momentos em seu novo lar."
     },
     "track2": {
       "title": "Depoimentos",
-      "text": ""
+      "text": "Conheça as experiências de quem já realizou o sonho do lar perfeito com a Resid."
     },
     "footer": {
       "slogan": "Casa com seu jeito",
@@ -33,21 +33,20 @@
       "sobre": "Quem Somos",
       "servicos": "Serviços"
     },
-
     "testemonials": [
       {
         "avatar": "/images/home/avatar.avif",
-        "text": "Arthur, boa noite. Hoje te escrevo com o coração repleto de gratidão. Passamos muitos perrengues, passei muitas noites sem dormir, precisei dizer coisas que não queria dizer, sofri muito com a ansiedade de Jefferson, mas você não me deixou na mão em nenhum momento. Vc me ouviu, me amparou assumindo até papéis que não eram seus. Hoje olho para trás e vejo que o que passou ficou como lembrança. E, o que fica é grandioso, uma casa linda, do jeito que imaginei, o meu sonho realizado, um lar para minha família.Te agradeço de coração. Ainda teremos ajustes para fazer, papéis para assinar, recursos para transferir, mas o momento da vistoria foi um marco para mim, a sinalização de que a casa está pronta!!!!! E a Resid, representada por você, Daniel e o pulso firme de Danielle, a colaboração de Gabriela e Mateus e tantas outras pessoas que usaram as mãos para transformar os recursos em uma casa linda, a minha casa!!!!Obrigada. ❤️ ",
+        "text": "Arthur, hoje estou imensamente grata. Apesar dos desafios, você esteve conosco em cada passo, oferecendo suporte e soluções. Hoje, nossa casa, um sonho concretizado, é o testemunho do seu compromisso e dedicação. Ainda temos detalhes a ajustar, mas já posso ver o resultado esplêndido do trabalho da Resid e de toda a equipe. Muito obrigada!",
         "name": "Luciana Guedes"
       },
       {
         "avatar": "/images/home/avatar.avif",
-        "text": "Espetacular atendimento. A empresa explica todos os detalhes do processo para construção e aquisição do imóvel. Serviço impecável.",
+        "text": "O atendimento da Resid é simplesmente espetacular. Eles explicam todos os detalhes do processo de construção e aquisição, garantindo um serviço de excelência em cada etapa.",
         "name": "Vitor Castim"
       },
       {
         "avatar": "/images/home/avatar.avif",
-        "text": "Minha reunião de fechamento foi com Daniel um dos sócios da empresa. Atencioso, escuta o cliente. Da soluções. Todos estão sempre aposto ao lhe ouvir. Excelente equipe. Nunca deixaram de me responder uma msg ou me dar algum retorno sempre que solicitei.",
+        "text": "Minha experiência com a Resid foi excepcional, especialmente a reunião de fechamento com Daniel. Atencioso e solícito, ele e a equipe sempre estiveram disponíveis para atender qualquer solicitação. Respostas rápidas e eficientes definem o trabalho deles.",
         "name": "Osmanilson"
       }
     ]
@@ -55,35 +54,35 @@
   "sobre": {
     "track1": {
       "title": "Nossa Estrutura",
-      "text": "Conheça nossa estrutura, venha nos visitar"
+      "text": "Descubra nossa infraestrutura de ponta e faça-nos uma visita para conhecer de perto a qualidade e o cuidado que colocamos em cada projeto."
     },
     "piccard1": {
       "title": "Construíndo Sonhos de Alto Padrão",
-      "text": "A RESID nasceu em 2019 para atuar na construção de imóveis residenciais de alto padrão em Natal e Região Metropolitana. Nossa missão é explorar o crescimento do mercado imobiliário clientes que valorizam qualidade acima de tudo, oferecendo a excelência em todas as etapas do processo, desde a legalização até a entrega das chaves. Não vendemos apenas a casa, o terreno ou o projeto. Oferecemos a paz e tranquilidade de uma construtora com vasta experiência, que resolve todas as burocracias para entregar o melhor para seus clientes e par-ceiros, sem dor de cabeça, sem externar situações in-desejadas, resolvendo tudo com praticidade e ética."
+      "text": "Fundada em 2019, a Resid se dedica à construção de imóveis residenciais de alto padrão em Natal e região. Nosso compromisso é com a qualidade absoluta, oferecendo residências que vão além de simples construções. Nossas casas são o reflexo da paz, da tranquilidade e da praticidade, com cada detalhe pensado para superar suas expectativas."
     },
     "proposito": {
       "title": "NOSSO PROPÓSITO",
-      "text": "Proporcionar segurança e tranquilidade oas nossos clientes e parceiros. tornando o processo ed construcão o mais leve possível, e garantindo que todos eles sejam entregues com altíssimo nível de excelência, sofisticação e confiabilidade."
+      "text": "Nosso propósito é garantir a segurança e a tranquilidade de nossos clientes e parceiros, tornando o processo de construção o mais leve e prazeroso possível, sempre entregando projetos com um nível excepcional de excelência, sofisticação e confiabilidade."
     },
     "aspiracao": {
       "title": "NOSSA ASPIRAÇÃO",
-      "text": "Ser aprimeira opcão de escolha de nossos clientes e parceiros na execução de seus projetos. Construir relacionamentos duradouros e satisfatórios. Ser reconhecida pela qualidade e eficiência em nossas soluções, tornando-nos referência no mercado."
+      "text": "Aspiramos ser a primeira escolha de nossos clientes e parceiros na realização de seus projetos. Buscamos construir relações duradouras e satisfatórias, sendo reconhecidos pela qualidade e eficiência de nossas soluções, e tornando-nos uma referência no mercado."
     },
     "valores": {
       "title": "VALORES E CRENÇAS",
       "text": {
-        "a": "Somos excelentes na execução",
-        "b": "Focamos em gerar resultados",
-        "c": "Cuidamos de tudo para que os projetos dos nossos arquitetos e parceiros possam brilhar",
-        "d": "Somos transparentes como nossos clientes e parceiros",
-        "e": "Nosso parceiro também é nosso cliente"
+        "a": "Excelência na execução é nosso padrão",
+        "b": "Nosso foco está em gerar resultados impactantes",
+        "c": "Dedicamo-nos a realçar a visão dos nossos arquitetos e parceiros",
+        "d": "Praticamos a transparência com clientes e parceiros",
+        "e": "Valorizamos nossos parceiros com a mesma estima de nossos clientes"
       }
     }
   },
   "contato": {
     "track1": {
       "title": "Entre em Contato",
-      "text": "Entre em contato conosco hoje mesmo para saber mais sobre nossos serviços e como podemos ajudá-lo a construir a casa dos seus sonhos. Estamos ansiosos para trabalhar com você!"
+      "text": "Estamos à disposição para conversar sobre como podemos ajudá-lo a realizar o sonho da casa perfeita. Contate-nos hoje e dê o primeiro passo para tornar seu sonho realidade!"
     },
     "form": {
       "title": "Envie-nos uma mensagem",
@@ -95,7 +94,7 @@
   "servicos": {
     "track1": {
       "title": "Nossos Serviços",
-      "text": "Conheça alguns dos nossos principais serviços"
+      "text": "Explore nossos serviços abrangentes e descubra como podemos atender às suas necessidades em construção e design."
     },
     "icon1": {
       "title": "Projetos",
@@ -131,7 +130,7 @@
   "realizacoes": {
     "track1": {
       "title": "Algumas de Nossas Realizações",
-      "text": ""
+      "text": "Descubra algumas de nossas realizações mais impressionantes e veja como transformamos sonhos em realidade."
     }
   }
 }
